@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Rajkumar R | Portfolio. Fullstack Developer and Android Developer specializing in React, Node.js, Python, Java, SQL, and MongoDB. View my projects including Brain Tumor Detection and Smart Attendance Systems.">
+    <title>RAJKUMAR R | Fullstack & Android Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Glows -->
+    <div class="glow-bg glow-purple"></div>
+    <div class="glow-bg glow-cyan"></div>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="main-header">
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo-link">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="url(#logo-grad-1)" />
+                    <path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="url(#logo-grad-2)" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <defs>
+                        <linearGradient id="logo-grad-1" x1="2" y1="7" x2="22" y2="7" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#00f2fe" />
+                            <stop offset="1" stop-color="#4facfe" />
+                        </linearGradient>
+                        <linearGradient id="logo-grad-2" x1="2" y1="12" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#7f00ff" />
+                            <stop offset="1" stop-color="#e100ff" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>RAJKUMAR R</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-links">
+                <a href="#hero" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#chatbot" class="nav-item">Ask AI Bot</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#chatbot" class="btn btn-secondary nav-btn-hide">Ask Bot</a>
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <button class="mobile-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav" id="mobile-nav-menu">
+        <a href="#hero" class="mobile-nav-item">Home</a>
+        <a href="#about" class="mobile-nav-item">About</a>
+        <a href="#skills" class="mobile-nav-item">Skills</a>
+        <a href="#projects" class="mobile-nav-item">Projects</a>
+        <a href="#chatbot" class="mobile-nav-item">Ask AI Bot</a>
+        <a href="#contact" class="mobile-nav-item">Contact</a>
+        <a href="#contact" class="btn btn-primary mobile-cta">Hire Me</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-container">
+                        <span class="badge">
+                            <span class="badge-dot"></span>
+                            Available for new opportunities
+                        </span>
+                    </div>
+                    <h1 class="hero-title">Building <span class="gradient-text" id="typewriter-tag">Scalable</span>
+                        Software Solutions</h1>
+                    <p class="hero-subtitle">Hi, I'm <strong style="color: #fff;">Rajkumar R</strong>. A passionate
+                        Fullstack Developer and Android Developer focused on crafting performant web and mobile systems
+                        driven by clean architectures.</p>
+                    <div class="hero-ctas">
+                        <a href="#contact" class="btn btn-primary btn-large">Let's Connect</a>
+                        <a href="#projects" class="btn btn-outline btn-large">View My Work</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">Fullstack</span>
+                            <span class="stat-lbl">Web Systems</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">Android</span>
+                            <span class="stat-lbl">Mobile Architect</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">AI/ML</span>
+                            <span class="stat-lbl">Integrated Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-wrapper glass profile-avatar-container">
+                        <!-- Stunning Interactive SVG Coder Concept Avatar -->
+                        <svg class="profile-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background Grid -->
+                            <rect width="400" height="400" rx="24" fill="url(#avatar-bg-grad)" />
+                            <path d="M0 50H400M0 100H400M0 150H400M0 200H400M0 250H400M0 300H400M0 350H400"
+                                stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+                            <path d="M50 0V400M100 0V400M150 0V400M200 0V400M250 0V400M300 0V400M350 0V400"
+                                stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+
+                            <!-- Glowing background circles -->
+                            <circle cx="200" cy="180" r="100" fill="url(#avatar-glow-1)" opacity="0.3" />
+                            <circle cx="200" cy="180" r="70" fill="url(#avatar-glow-2)" opacity="0.4" />
+
+                            <!-- Head and Shoulders Outline (Minimalist Coder) -->
+                            <path d="M140 280C140 250 160 230 200 230C240 230 260 250 260 280V320H140V280Z"
+                                fill="url(#avatar-body-grad)" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+                            <circle cx="200" cy="170" r="45" fill="url(#avatar-skin-grad)"
+                                stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+
+                            <!-- Stylish Glasses -->
+                            <path d="M175 165H225M175 165C175 175 190 175 190 165M210 165C210 175 225 175 225 165"
+                                stroke="#00f2fe" stroke-width="3" stroke-linecap="round" />
+
+                            <!-- Laptop Mockup in foreground -->
+                            <path d="M110 320H290L295 350H105L110 320Z" fill="#1e1e24" stroke="rgba(255,255,255,0.15)"
+                                stroke-width="2" />
+                            <path d="M140 320H260V317C260 312 250 310 200 310C150 310 140 312 140 317V320Z"
+                                fill="#2d2d34" stroke="rgba(255,255,255,0.1)" />
+                            <path d="M100 350H300V355C300 358 297 360 294 360H106C103 360 100 358 100 355V350Z"
+                                fill="#18181c" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+
+                            <!-- Floating Code Bracket SVG Elements -->
+                            <text x="70" y="130" fill="#c084fc" font-family="monospace" font-size="28"
+                                font-weight="bold" class="float-svg-1">&lt;/&gt;</text>
+                            <text x="300" y="140" fill="#22d3ee" font-family="monospace" font-size="30"
+                                font-weight="bold" class="float-svg-2">{}</text>
+                            <text x="90" y="240" fill="#fb923c" font-family="monospace" font-size="26"
+                                font-weight="bold" class="float-svg-3">JS</text>
+
+                            <!-- Code screen light emission -->
+                            <path d="M160 320L200 240L240 320H160Z" fill="url(#screen-glow)" opacity="0.15" />
+
+                            <defs>
+                                <linearGradient id="avatar-bg-grad" x1="0" y1="0" x2="400" y2="400">
+                                    <stop stop-color="#0b0b0f" />
+                                    <stop offset="1" stop-color="#14141d" />
+                                </linearGradient>
+                                <radialGradient id="avatar-glow-1" cx="50%" cy="50%" r="50%">
+                                    <stop stop-color="#7c3aed" />
+                                    <stop offset="1" stop-color="transparent" />
+                                </radialGradient>
+                                <radialGradient id="avatar-glow-2" cx="50%" cy="50%" r="50%">
+                                    <stop stop-color="#06b6d4" />
+                                    <stop offset="1" stop-color="transparent" />
+                                </radialGradient>
+                                <linearGradient id="avatar-body-grad" x1="140" y1="280" x2="260" y2="320">
+                                    <stop stop-color="#2a2244" />
+                                    <stop offset="1" stop-color="#162e3d" />
+                                </linearGradient>
+                                <linearGradient id="avatar-skin-grad" x1="155" y1="125" x2="245" y2="215">
+                                    <stop stop-color="#1f2937" />
+                                    <stop offset="1" stop-color="#111827" />
+                                </linearGradient>
+                                <linearGradient id="screen-glow" x1="200" y1="240" x2="200" y2="320">
+                                    <stop stop-color="#06b6d4" />
+                                    <stop offset="1" stop-color="transparent" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                        <!-- Floating Glass Info Badges -->
+                        <div class="floating-card fc-1 glass">
+                            <div class="fc-icon purple">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="fc-title">Clean Architectures</div>
+                                <div class="fc-desc">MVC, MVVM, SOLID</div>
+                            </div>
+                        </div>
+                        <div class="floating-card fc-2 glass">
+                            <div class="fc-icon cyan">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                    <line x1="12" y1="18" x2="12.01" y2="18" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="fc-title">Android SDK</div>
+                                <div class="fc-desc">Java & APIs</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">A brief overview of my engineering background, philosophy, and
+                        professional goals.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image glass">
+                        <!-- Drop your profile picture file named 'about-profile.jpg' into the project directory -->
+                        <img src="about-profile.jpg" alt="Rajkumar R Profile" class="about-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="about-img-placeholder" style="display:none; width: 100%; height: 320px; align-items: center; justify-content: center; background: rgba(255,255,255,0.02); color: var(--text-dark);">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                    </div>
+                    <div class="about-text glass">
+                        <h3>Who I Am</h3>
+                        <p>Hi, I'm Raj Kumar, a passionate Full Stack Developer, Android Developer, and Web Developer
+                            with a strong foundation in designing and developing modern, user-friendly applications. I
+                            enjoy transforming ideas into real-world solutions through clean, efficient, and scalable
+                            code.
+
+                            My technical expertise includes Java, Kotlin, Python, HTML, CSS, JavaScript, XML, SQL, and
+                            modern development tools. I have experience building responsive websites, Android
+                            applications, and full-stack projects while continuously exploring new technologies and best
+                            development practices.
+
+                            I am a quick learner, an enthusiastic problem solver, and a collaborative team player who
+                            enjoys taking on new challenges. As a recent Information Technology graduate, I am actively
+                            seeking opportunities to contribute to innovative software projects, expand my technical
+                            expertise, and grow as a software engineer.
+
+                            When I'm not coding, I enjoy learning new technologies, improving my development skills, and
+                            working on personal projects that strengthen my knowledge in mobile and web development.
+
+                            Let's build something amazing together!</p>
+                        <p>Whether configuring complex SQL relational databases, creating interactive web dashboards, or
+                            designing smart OpenCV vision scripts for AI projects, I focus on performance, writing
+                            readable code, and user accessibility.</p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-card glass">
+                            <div class="detail-number">01</div>
+                            <div>
+                                <h4>Fullstack Strategy</h4>
+                                <p>Fusing Node.js, Python, and Java backends with dynamic React views.</p>
+                            </div>
+                        </div>
+                        <div class="detail-card glass">
+                            <div class="detail-number">02</div>
+                            <div>
+                                <h4>Mobile Focus</h4>
+                                <p>Developing performant Android applications with Java and modern APIs.</p>
+                            </div>
+                        </div>
+                        <div class="detail-card glass">
+                            <div class="detail-number">03</div>
+                            <div>
+                                <h4>AI & Vision Integration</h4>
+                                <p>Deploying smart predictive modeling, image parsing, and OpenCV systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <p class="section-subtitle">My core skills and technology stack mapped by development layer.</p>
+                </div>
+                <div class="skills-grid">
+                    <!-- Frontend Group -->
+                    <div class="skill-category glass">
+                        <div class="category-icon purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                                <polygon points="2 17 12 22 22 17 12 12 2 17" />
+                                <polygon points="2 12 12 17 22 12 12 7 2 12" />
+                            </svg>
+                        </div>
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-tag">React</div>
+                            <div class="skill-tag">JavaScript (ES6+)</div>
+                            <div class="skill-tag">HTML5 / CSS3</div>
+                            <div class="skill-tag">Web Development</div>
+                        </div>
+                    </div>
+                    <!-- Backend Group -->
+                    <div class="skill-category glass">
+                        <div class="category-icon cyan">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                                <line x1="6" y1="6" x2="6.01" y2="6" />
+                                <line x1="6" y1="18" x2="6.01" y2="18" />
+                            </svg>
+                        </div>
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">Java</div>
+                        </div>
+                    </div>
+                    <!-- Mobile Development -->
+                    <div class="skill-category glass">
+                        <div class="category-icon pink">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                <line x1="12" y1="18" x2="12.01" y2="18" />
+                            </svg>
+                        </div>
+                        <h3>Mobile</h3>
+                        <div class="skill-items">
+                            <div class="skill-tag">Android SDK</div>
+                            <div class="skill-tag">Java (Android)</div>
+                            <div class="skill-tag">Mobile UI Layout</div>
+                        </div>
+                    </div>
+                    <!-- Databases & Infrastructure -->
+                    <div class="skill-category glass">
+                        <div class="category-icon orange">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+                            </svg>
+                        </div>
+                        <h3>Databases</h3>
+                        <div class="skill-items">
+                            <div class="skill-tag">SQL</div>
+                            <div class="skill-tag">MongoDB</div>
+                            <div class="skill-tag">Data Modeling</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">A collection of custom applications built, designed, and deployed across
+                        web, mobile, and AI modules.</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card glass">
+                        <div class="project-header-img">
+                            <svg viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="320" height="180" fill="url(#p1-grad)" />
+                                <circle cx="160" cy="90" r="45" fill="rgba(124, 58, 237, 0.2)" stroke="#a78bfa"
+                                    stroke-width="2" />
+                                <circle cx="160" cy="90" r="30" fill="rgba(6, 182, 212, 0.2)" stroke="#22d3ee"
+                                    stroke-width="2" />
+                                <path d="M120 90H200M160 50V130" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+                                <circle cx="160" cy="90" r="6" fill="#fff" />
+                                <defs>
+                                    <linearGradient id="p1-grad" x1="0" y1="0" x2="320" y2="180">
+                                        <stop stop-color="#1e1b4b" />
+                                        <stop offset="1" stop-color="#311042" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="project-badge purple">AI & Python</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Brain Tumor Detection</h3>
+                            <p>An AI diagnosis engine built in Python utilizing deep learning architectures to identify
+                                brain abnormalities from MRI scans. Features OpenCV parsing, Flask web server endpoints,
+                                and high model prediction accuracy.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>TensorFlow</span>
+                                <span>Flask</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card glass">
+                        <div class="project-header-img">
+                            <svg viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="320" height="180" fill="url(#p2-grad)" />
+                                <!-- Blood Droplet Vector -->
+                                <path
+                                    d="M160 50C160 50 200 95 200 115C200 137.09 182.09 155 160 155C137.91 155 120 137.09 120 115C120 95 160 50 160 50Z"
+                                    fill="rgba(239, 68, 68, 0.15)" stroke="#ef4444" stroke-width="2.5"
+                                    stroke-linejoin="round" />
+                                <line x1="145" y1="115" x2="175" y2="115" stroke="#ef4444" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <line x1="160" y1="100" x2="160" y2="130" stroke="#ef4444" stroke-width="3"
+                                    stroke-linecap="round" />
+                                <defs>
+                                    <linearGradient id="p2-grad" x1="0" y1="0" x2="320" y2="180">
+                                        <stop stop-color="#180c10" />
+                                        <stop offset="1" stop-color="#2d0c15" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="project-badge red">Java & SQL</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Blood Bank Management</h3>
+                            <p>An enterprise-grade Java web application designed to manage blood bank logistics.
+                                Automates donor directories, checks blood group inventories, maps real-time hospital
+                                requests, and coordinates emergency dispatches.</p>
+                            <div class="project-tech">
+                                <span>Java Servlet</span>
+                                <span>JSP</span>
+                                <span>SQL Server</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card glass">
+                        <div class="project-header-img">
+                            <svg viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="320" height="180" fill="url(#p3-grad)" />
+                                <!-- Scan Box -->
+                                <rect x="90" y="40" width="140" height="100" rx="8" fill="rgba(6, 182, 212, 0.05)"
+                                    stroke="#06b6d4" stroke-width="2" />
+                                <!-- Scan Line -->
+                                <line x1="85" y1="90" x2="235" y2="90" stroke="#22d3ee" stroke-width="3"
+                                    stroke-linecap="round" opacity="0.8" />
+                                <!-- Nodes -->
+                                <circle cx="110" cy="70" r="4" fill="#06b6d4" />
+                                <circle cx="210" cy="70" r="4" fill="#06b6d4" />
+                                <path d="M140 115C140 115 150 120 160 120C170 120 180 115 180 115" stroke="#06b6d4"
+                                    stroke-width="2" stroke-linecap="round" />
+                                <defs>
+                                    <linearGradient id="p3-grad" x1="0" y1="0" x2="320" y2="180">
+                                        <stop stop-color="#06222b" />
+                                        <stop offset="1" stop-color="#02141f" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span class="project-badge cyan">Android & Vision</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Smart Attendance Monitoring</h3>
+                            <p>An automated school/office attendance tracker using OpenCV facial recognition. Syncs
+                                instantly with a custom Android app, letting administrators check attendance rates,
+                                manage profiles, and review reports on mobile.</p>
+                            <div class="project-tech">
+                                <span>Android SDK</span>
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive AI Chatbot Widget Section -->
+        <section class="demo-section" id="chatbot">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Ask My Portfolio Assistant</h2>
+                    <p class="section-subtitle">Interact with this mock AI chatbot to quickly learn about my career,
+                        skills, and current work availability.</p>
+                </div>
+                <div class="demo-workspace glass">
+                    <div class="demo-sidebar">
+                        <div class="sidebar-header">
+                            <span class="sidebar-dot red"></span>
+                            <span class="sidebar-dot yellow"></span>
+                            <span class="sidebar-dot green"></span>
+                        </div>
+                        <div class="sidebar-menu">
+                            <div class="menu-title">Select Question</div>
+                            <button class="demo-btn active" id="demo-prompt-1">
+                                <span class="bullet purple"></span>
+                                What is your Tech Stack?
+                            </button>
+                            <button class="demo-btn" id="demo-prompt-2">
+                                <span class="bullet cyan"></span>
+                                Tell me about your Projects
+                            </button>
+                            <button class="demo-btn" id="demo-prompt-3">
+                                <span class="bullet pink"></span>
+                                Are you open for hire?
+                            </button>
+                        </div>
+                    </div>
+                    <div class="demo-main">
+                        <div class="demo-chat-header">
+                            <div class="avatar-title">
+                                <div class="avatar">RR</div>
+                                <div>
+                                    <div class="avatar-name">Rajkumar's Portfolio Bot</div>
+                                    <div class="avatar-status">Online • Answering inquiries</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="demo-chat-body" id="demo-chat-body">
+                            <!-- User Message -->
+                            <div class="chat-msg user-msg">
+                                <div class="msg-bubble">
+                                    What is your Tech Stack?
+                                </div>
+                            </div>
+                            <!-- AI Response -->
+                            <div class="chat-msg ai-msg">
+                                <div class="msg-bubble" id="demo-ai-bubble">
+                                    Sure! Here is a structured summary of my tech stack:
+                                    <div class="typing-indicator">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="demo-chat-input">
+                            <input type="text" placeholder="Select a question from the sidebar to chat..." disabled
+                                id="demo-input-text">
+                            <button class="send-btn" disabled>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13" />
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-wrapper glass">
+                    <div class="contact-info">
+                        <h2>Work With Me</h2>
+                        <p>Have an interesting project, contract, or open position? Drop a message below and let's
+                            discuss how we can build great products together.</p>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                        <polyline points="22,6 12,13 2,6" />
+                                    </svg>
+                                </div>
+                                <span>rajkumarrajan0303@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form" action="https://formsubmit.co/rajkumarrajan0303@gmail.com" method="POST" novalidate>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                <span class="error-msg" id="name-error">Name is required.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="plan-select">Inquiry Type</label>
+                                <select id="plan-select" name="plan">
+                                    <option value="freelance">Freelance Contract</option>
+                                    <option value="fulltime" selected>Fulltime Hiring</option>
+                                    <option value="collab">Project Collaboration</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Let me know how I can help you..." required></textarea>
+                                <span class="error-msg" id="message-error">Message is required.</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">Send Message</button>
+                        </form>
+                        <!-- Form Success Message -->
+                        <div class="success-card" id="form-success">
+                            <div class="success-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for reaching out. Rajkumar will get back to you shortly.</p>
+                            <button class="btn btn-outline" id="reset-form-btn">Submit Another Response</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="url(#foot-grad-1)" />
+                        <path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="url(#foot-grad-2)" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                            <linearGradient id="foot-grad-1" x1="2" y1="7" x2="22" y2="7"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00f2fe" />
+                                <stop offset="1" stop-color="#4facfe" />
+                            </linearGradient>
+                            <linearGradient id="foot-grad-2" x1="2" y1="12" x2="22" y2="22"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7f00ff" />
+                                <stop offset="1" stop-color="#e100ff" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>RAJKUMAR R</span>
+                </a>
+                <p class="brand-desc">Fullstack & Android Developer creating high-performance computational systems.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Navigation</h4>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="link-group">
+                    <h4>Work Context</h4>
+                    <a href="#chatbot">AI Bot</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="link-group">
+                    <h4>Profiles</h4>
+                    <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/rajkumarrajan03" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://twitter.com/YOUR_TWITTER_USERNAME" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Rajkumar R. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
